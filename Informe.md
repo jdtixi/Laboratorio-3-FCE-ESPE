@@ -86,7 +86,7 @@ Los circuitos lineales cumplen la propiedad de superposición. Esto es, en un ci
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140023457_233535251545852_6633194767969206271_n.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_eui2=AeHv1sncb2BaVoK1bIcB0t_g6M4rmz1CXMnoziubPUJcyQ2w7G4WGVS2KCAFl5zhdXycj9fxlzJOPpnaq01_44I2&_nc_ohc=EdVFy_dPtkcAX-aWKco&_nc_ht=scontent.fuio16-1.fna&oh=c6c903a8b6db93e62dd187cc6db74bad&oe=60288AD2)
 
 
-**1.3.2. TEOREMA DE SUPERPOSICIÓN **
+**1.3.2. TEOREMA DE SUPERPOSICIÓN**
 
 1. Valores de tensión, en una posición de un circuito, que tiene más de una fuente de tensión.
 
@@ -95,6 +95,7 @@ Los circuitos lineales cumplen la propiedad de superposición. Esto es, en un ci
 Este teorema establece que el efecto de dos o más fuentes de voltaje tiene sobre una resistencia es igual, a la suma de cada uno de los efectos de cada fuente tomados por separado, sustituyendo todas las fuentes de voltaje restantes por un circuito.
 
 **Para resolver problemas usando el teorema de superposición debemos tener en cuenta que:**
+
 •	Las fuentes independientes se consideran una a la vez mientras todas las demás fuentes independientes están apagadas. Esto implica que cada fuente de tensión se remplaza por 0 V (o cortocircuito) y cada fuente de corriente por 0 A (o circuito abierto). De este modo se obtiene un circuito más simple y manejable. 
 •	Las fuentes dependientes se dejan intactas, porque las controlan variables de circuitos.
 Pasos para aplicar el principio de superposición: 
