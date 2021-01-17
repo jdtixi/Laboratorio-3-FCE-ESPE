@@ -47,8 +47,6 @@ Un circuito es lineal si las ecuaciones que relacionan sus voltajes y corrientes
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/138635576_233525448213499_596568944852839270_n.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_eui2=AeGz_r0D8p3ZUpSasrGubJKMgSkJNngigaKBKQk2eCKBouXuUercNsJYqycoZLqZMaLL-reWtMusxwxMZyzJLYFW&_nc_ohc=26G1M9fCGlkAX891pV2&_nc_ht=scontent.fuio16-1.fna&oh=c8d17b494e9058498b355648406d75aa&oe=60297DC9)
 
 
-![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/139432088_233525504880160_1810683039670681736_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_eui2=AeH4L0Q7MOVHbRlRtGa4dRU7c19SgvRgke9zX1KC9GCR72Llzrrf2nN1-6iWnnQOsvmeybasCbOugWQNkjQDQ50o&_nc_ohc=Tmely8QvW0YAX8ocedD&_nc_ht=scontent.fuio16-1.fna&oh=5987965a6a49fe788dd1a7ff9c139f62&oe=60286799)
-
 
 **Propiedad de Homogeneidad**
 Esta propiedad establece que si se le multiplica por una constante k a la entrada en un elemento esto será igual a la salida multiplicada por esa misma constante k.
