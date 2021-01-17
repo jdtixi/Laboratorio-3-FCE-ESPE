@@ -44,10 +44,6 @@ Un circuito es lineal si las ecuaciones que relacionan sus voltajes y corrientes
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/139184807_233525418213502_8965456243623098438_n.jpg?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_eui2=AeE3xCtzONRjGKX0409PHq4J_8iiFtHg9UT_yKIW0eD1RH-AXOryGnE7_nvz_4EkIE1OBxKHjJWy5QhnnFkd4pQK&_nc_ohc=AQHj1P2apKIAX-zccVg&_nc_ht=scontent.fuio16-1.fna&oh=85d001252acb7c9cd176f7476f79f8f3&oe=602C3C0F)
 
 
-![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/138635576_233525448213499_596568944852839270_n.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_eui2=AeGz_r0D8p3ZUpSasrGubJKMgSkJNngigaKBKQk2eCKBouXuUercNsJYqycoZLqZMaLL-reWtMusxwxMZyzJLYFW&_nc_ohc=26G1M9fCGlkAX891pV2&_nc_ht=scontent.fuio16-1.fna&oh=c8d17b494e9058498b355648406d75aa&oe=60297DC9)
-
-
-
 **Propiedad de Homogeneidad**
 Esta propiedad establece que si se le multiplica por una constante k a la entrada en un elemento esto será igual a la salida multiplicada por esa misma constante k.
 kv=k iR
