@@ -92,8 +92,11 @@ Este teorema establece que el efecto de dos o más fuentes de voltaje tiene sobr
 **Para resolver problemas usando el teorema de superposición debemos tener en cuenta que:**
 
 •	Las fuentes independientes se consideran una a la vez mientras todas las demás fuentes independientes están apagadas. Esto implica que cada fuente de tensión se remplaza por 0 V (o cortocircuito) y cada fuente de corriente por 0 A (o circuito abierto). De este modo se obtiene un circuito más simple y manejable. 
+
 •	Las fuentes dependientes se dejan intactas, porque las controlan variables de circuitos.
-Pasos para aplicar el principio de superposición: 
+
+**Pasos para aplicar el principio de superposición:**
+
 1. Apague todas las fuentes independientes, excepto una. Determine la salida (tensión o corriente) debida a esa fuente activa usando la Ley de Ohm y las Leyes de Kirchhoff y además de todas las técnicas ya estudiadas 
 2. Repita el paso 1 en cada una de las demás fuentes independientes. 
 3. Halle la contribución total sumando algebraicamente todas las contribuciones debidas a las fuentes independientes.
