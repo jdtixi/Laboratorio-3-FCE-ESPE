@@ -71,7 +71,8 @@ Cabe recalcar que las resistencias internas de las fuentes toman efecto en los r
 ![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/138301040_233525518213492_5635638613068256265_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_eui2=AeFiqkdkNpZhkst10inxZtt33wlDn82BJ3LfCUOfzYEnct84s8tjO_xKKvjpzY2h6AFKNJrkh6T0kx6QXRJK-Znw&_nc_ohc=6KFgg6e2hsYAX-GCmaP&_nc_ht=scontent.fuio16-1.fna&oh=19cf8be6b227368ffa2b3699afd3f489&oe=60288DF1)
 
 
-**1.3.1.3. Reciprocidad **
+**1.3.1.3. Reciprocidad**
+
 Los circuitos lineales cumplen la propiedad de superposición. Esto es, en un circuito con varias fuentes (de tensión y/o corriente), la respuesta se puede hallar sumando la respuesta del circuito a cada una de las fuentes (independientes) por separado. Para clarificar este aspecto se plantea el siguiente ejemplo:
 
 
