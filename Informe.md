@@ -114,3 +114,119 @@ Con todos los conocimientos ya adquiridos anteriormente, y sabiendo el concepto 
 
 Tomamos la fuente de 20 V y conectamos la polaridad positiva a la primera terminal del resistor de 5 kOhm, la terminal que queda libre la conectamos a dos resistencias de 820 Ohm y 2.2 kOhm respectivamente, de la terminal dos de la resistencia de 820 kOhm la conectamos a la polaridad positiva de la fuente de voltaje y a un extremo del resistor de 470 Omh en forma paralela, para finalmente conectar todos los demás extremos de los resistores a las polaridades negativas de los suministros de energía.
 Desarrollado el circuito en la plataforma Tinkercad queda así:
+
+.3.1.	Arme el circuito que se muestra en la ilustración 
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140631987_234352741464103_4166652457281539738_n.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_eui2=AeHV39C59TqzDFmgAopQioNCbcx7u71JcoVtzHu7vUlyhVIuJtnJGd3gi9fWEdBZZ16HTPxh74u7mT-MoQ8a3_Hu&_nc_ohc=3rSFwk0hTboAX8GBLx0&_nc_ht=scontent.fuio16-1.fna&oh=73f3624ab9965462630b73383a26f918&oe=602D8FF0)
+
+
+Circuito armado en el simulador Tinkercad
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140321537_234355821463795_6520878954389612150_n.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_eui2=AeHPEBlyUQqhUaq_mGiIH9g66D-FfmgAlMjoP4V-aACUyA0Svq4L1PYAYjiiBAp6NaT2bAyQQr1pwLaXNshcUskd&_nc_ohc=ds71lZyfKKQAX_rrDVk&_nc_ht=scontent.fuio16-1.fna&oh=395c7d8a255de1740d9789fc346fe98e&oe=602DDA1D)
+
+
+Circuito una vez corrida la simulación, se aprecian los voltajes de las dos fuentes
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140176421_234355828130461_6179527468309770888_n.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_eui2=AeHwsy-cOmg4RPfLXG05kQdQPrOENIxxBu0-s4Q0jHEG7ZqKoaoVVWaDNBOev3Nxxd2Iq14bSShpwhmbzixLxUex&_nc_ohc=SKuKmACgF4gAX9EFLJF&_nc_ht=scontent.fuio16-1.fna&oh=69d0b1f4857ad96b5e4f3828bf6763ca&oe=602B48DC)
+
+
+Para resolver el circuito por superposición, debemos apagar una de las fuentes en este circuito, así que primero apagaremos la fuente de 12 V, y aplicaremos el análisis de mallas al circuito.
+El circuito con la fuente de 12 V apagada queda así:
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140370341_234352758130768_2386710325088716520_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_eui2=AeGqxeJjh3teGaEo5NKS1GlZ2O4rEoL3m8_Y7isSgvebz6cCDV81MrNXHKQo-rVLCXH9Zs3zfPlc9aII2YLYVFd7&_nc_ohc=4-zrabmtA50AX-r-97i&_nc_ht=scontent.fuio16-1.fna&oh=0956d9656b8e26bb46346b747de80b55&oe=602D53A5)
+
+Como apreciamos en la figura, ahora la segunda fuente de voltaje es cero, continuamos con el establecimiento de las ecuaciones de malla aplicando la Ley de Voltaje de Kirchhoff.
+Tenemos dos mallas en el circuito así:
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140202706_234352804797430_2395632636591482594_n.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_eui2=AeEoLzMog0PfbL8gQfJILRMQ-YLP4bQWQo_5gs_htBZCjyanZw4gR86VOPAvaekAWW2Iaox--BtXGMoKcfs8V9Oj&_nc_ohc=zFzy8Vm5ObAAX9jrJrC&_nc_ht=scontent.fuio16-1.fna&oh=98e81b1879e681dbe032b13364c5e546&oe=602A5E57)
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140128866_234352828130761_5094330339707815253_n.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_eui2=AeG6GEV7yNa2bwp39gyjrHd75RzwXvmnMHvlHPBe-acwexDkTOvJQrVy5ViAsqA_ohPwmmsNHYuTTIw5q0ZmA_bV&_nc_ohc=uNGJQSvNSxwAX8lqBu1&_nc_ht=scontent.fuio16-1.fna&oh=e4b4749385b07042775593d1e0d72cfa&oe=602AD06A)
+
+Precedemos con la siguiente fuente, la apagamos y nos queda el circuito así:
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140374015_234357691463608_7908705317148865004_o.jpg?_nc_cat=109&ccb=2&_nc_sid=730e14&_nc_eui2=AeGTgikjIUHE6eSnFnnLlBifoobSgiHbpFuihtKCIdukW418rS6EdXTr5nMn2AArn_PpsjzWq0xiyLO8hCZugYiv&_nc_ohc=2IB3sf4ZqmoAX8vQl1p&_nc_ht=scontent.fuio16-1.fna&oh=8d9a808eb56de33586341107c51b72b3&oe=602DE93A)
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140391672_234352834797427_9212817523218446660_n.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_eui2=AeF7Aj039IrJM1YjydsoeOsm-kHs-FO6AZv6Qez4U7oBm99zeVaVJUIUK-l2CnJDpK5T8dmC0N64Jocbe4IB2duf&_nc_ohc=knCXb_CeUxcAX86BPvl&_nc_ht=scontent.fuio16-1.fna&oh=f060e07c99baf737716ea3f24618cb42&oe=602C476A)
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140596084_234352854797425_2673090251145189046_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_eui2=AeEIGldQXPNnUBBvrNNlChm7wB2BoH0jphjAHYGgfSOmGLFDK6r3lxeWmYBxEuMe5qUYYr8PODBxR4qQF0BVPhCg&_nc_ohc=TZse8zXlSHwAX9Tu2-v&_nc_ht=scontent.fuio16-1.fna&oh=574a20ea3a7e6c8a3a8f69f8b2ea8033&oe=602B571F)
+
+
+Para calcular el valor del voltaje pedido lo hacemos en el siguiente circuito equivalente, reestablecemos las resistencias y solo hacemos el paralelo de dos resistencias, así:
+1k || 2.2k =0.68 k
+ Y aplicamos el divisor de voltaje
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140596084_234352854797425_2673090251145189046_n.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_eui2=AeEIGldQXPNnUBBvrNNlChm7wB2BoH0jphjAHYGgfSOmGLFDK6r3lxeWmYBxEuMe5qUYYr8PODBxR4qQF0BVPhCg&_nc_ohc=TZse8zXlSHwAX9Tu2-v&_nc_ht=scontent.fuio16-1.fna&oh=574a20ea3a7e6c8a3a8f69f8b2ea8033&oe=602B571F)
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140155769_234352868130757_6656534291561579447_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_eui2=AeENAFc-uXYHrTVHV6dVaV9rzdH0pQ9p98HN0fSlD2n3weeV5Ca34MghIkn-bf2F0aVXGdhKUdfN4pzpQHqYNCjs&_nc_ohc=2UBZC9LeYoAAX8ftGgp&_nc_ht=scontent.fuio16-1.fna&oh=a6d01f810d92f88e898026c65610e8bb&oe=602D666F)
+
+
+	Con las dos fuentes conectadas, mida el voltaje V_A y la corriente I_X , respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en las tablas respectivamente.
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140281524_234352894797421_3743562105018727673_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_eui2=AeFcg_BI75nJ76mLAi6HqKtblKqQNRpayw6UqpA1GlrLDtX0u_Y7j4V2BO0ggGH2yc4K3knHeO4SJdBKjxN4DJkA&_nc_ohc=RcmmhWQD4bEAX97gcuP&_nc_ht=scontent.fuio16-1.fna&oh=cbab24e314c6814b3e57cde2f8dc0108&oe=602BF6CC)
+
+
+	Haga “cero” la fuente de voltaje de 12 V (V_2) y mida el voltaje V_A y la corriente I_X , respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en las tablas respectivamente.
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140475764_234352888130755_6730524417952573339_n.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_eui2=AeGqk8b8inOO4i245Vn3YGJJuk79fvhAJMW6Tv1--EAkxeiWVjBFih66VoJG05BAYxYB3vZOB1tIwsJFAXE6yw1e&_nc_ohc=cbvSVR5N5ywAX8poxJk&_nc_ht=scontent.fuio16-1.fna&oh=594486cfc6a426bb81253b7ff8d3c022&oe=602A4454)
+
+
+
+	Haga “cero” la fuente de voltaje de 20 V (V_1) y mida el voltaje V_A y la corriente I_X , respetando tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote el valor de las mediciones en las tablas respectivamente. 
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140305221_234352914797419_8222826185780386186_n.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_eui2=AeHWDjYLgfMaxbRut4v5KexepTttXnzqz-elO21efOrP5-sQTQycvFqn0dT2MQv5cDJfKTCM7kX_L-2uZQRBCaF-&_nc_ohc=7Ph-lY1PyiwAX_ZYcQi&_nc_ht=scontent.fuio16-1.fna&oh=fd43ff12d916b38131e7e10a7046de08&oe=602C60C5)
+
+
+Con las incógnitas calculadas en cada uno de los procesos del método, procedemos a llenar nuestra tabla de resultados.
+
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140305228_234352931464084_8242978713625880236_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_eui2=AeH4VeLB-siHEWEiJDjex3-SLEjH3zY4n3osSMffNjifemZYPxlC-TGz88F9cxijP6HyUWJwTaGqm14K2ORW23P1&_nc_ohc=BLe8hB_sOi4AX-e_gog&_nc_ht=scontent.fuio16-1.fna&oh=e5fdf12996b49169cb20eb6e6d026a41&oe=602C76AF)
+
+
+1.3.5.	Verifique el cumplimiento del Teorema de Superposición y compare los resultados obtenidos prácticamente con los obtenidos analíticamente. Realice sus conclusiones
+
+![](https://scontent.fuio16-1.fna.fbcdn.net/v/t1.0-9/140615328_234352951464082_5709653325444570363_n.jpg?_nc_cat=102&ccb=2&_nc_sid=730e14&_nc_eui2=AeGsK7Sn3jYzNxU0Z9eTyTeriLun3sG6dASIu6fewbp0BIZP2tOzPDSV2T946vt3GVlRfSxdC99twHrINGTJoer1&_nc_ohc=jBT9iAA9NxQAX-uElvK&_nc_ht=scontent.fuio16-1.fna&oh=ace700da185453130d3b4f70361b0203&oe=602AF054)
+
+
+1.7.	DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+Como prerrequisitos tenemos que conocer ampliamente las leyes de elementales del análisis de circuitos eléctricos, que son La Ley de Ohm y las Leyes de Kirchhoff, Sabemos también sobra las propiedades de homogeneidad y de aditividad en circuitos eléctricos que lo que hace el teorema de superposición es júntalos y aplicarlos.
+
+A cada suministro de energía lo configuramos en el simulador de tal manera que tenemos el voltaje que nos piden en el circuito, en este caso le cambiamos el voltaje de 5 V por defecto a 20 V y 12 V que son los voltajes que necesitamos para realizar el trabajo, del mismo modo se pueden cambiar el valor de cada una de las resistencias, permitiéndonos cambiar el valor que viene por defecto por el valor requerido para la práctica.
+
+Los multímetros usados para cada una de las mediciones, deben ser configurados previamente para voltaje y corriente respectivamente, sabiendo que para medir voltajes se miden en forma paralela al elemento medido y para la medición de las corrientes se debe medir en serie con el elemento medido
+
+**1.8.	CONCLUSIONES**
+
+**Conclusiones específicas **
+
+•	De forma práctica pudimos aprender a implementar el teorema de superposición con la toma de medida usando solo una fuente de alimentación. 
+
+•	El teorema de superposición nos permite evaluar los datos proporcionados por cada fuente en diversas resistencias del circuito, para luego proceder a sumar estos datos y hallar los verdaderos valores proporcionados en el circuito. 
+
+•	Para suprimir las fuentes ideales de tensión se ubican uniones donde deberían posicionarse esas fuentes.
+
+•	Se pudo determinar que si la fuente no es la ideal esta se cortocircuita, sin embargo, se deja introducida en el circuito eléctrico. 
+
+•	Incluso comprobamos como al tener la fuente ideal esta se reemplaza por un circuito abierto. 
+
+
+### Conclusión general
+
+Podemos concluir entonces que al considerar los efectos de cada fuente de manera independiente y que estas fuentes se retiren y se reemplacen sin ser capaces de afectar el resultado final. Al usar la teoría de superposición la diferencia de potencia entre los contactos de la fuente de tensión se debe ajustar a cero, entonces el retiro de una fuente de corriente en el circuito requiere que los contactos de este estén abiertos, es decir, que sea un circuito abierto. 
+
+También sabemos que la cualquiera porción de la red es igual a la suma algebraica de las corrientes producidas independientemente por cada una de las fuentes, en cambio, si la corriente producida por una fuente sigue una dirección, mientras que la producida por la otra va en sentido opuesto a través del mismo resistor, la corriente resultando será la diferencia entre las dos y se obtendrá la dirección de la mayor. 
+
+Además, pudimos darnos cuenta de que la superposición no es aplicable a los efectos de la potencia, puesto que la pérdida de potencia en uno de los resistores del circuito varia con el cuadrado no lineal de la corriente o de la tensión. Entonces conocemos que esta es la principal razón para que la potencia en un elemento no se puede determinar sino hasta haber establecido la corriente total o la tensión a través del elemento mediante la superposición. 
+
+
+1.9.	BIBLIOGRAFÍA
+
+Alexander, S. M. (2006). Fundamento de Circuitos Eléctricos (Vol. 3ra Edición). The McGraw-Hill Companies Inc. Recuperado el 12 de Diciembre de 2020
+
+McAllister, W. (2016). Los elementos de los circuitos. Obtenido de La terminología de los circuitos: https://es.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic#circuit-elements
